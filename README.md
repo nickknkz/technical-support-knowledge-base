@@ -1,55 +1,43 @@
-**Technical Support Knowledge Base**
+# Technical Support Knowledge Base
 
-A practical knowledge base for IT support operations, troubleshooting, and incident management.
+A practical, structured knowledge base for technical support, IT operations, and incident management. The guides are designed to help support teams investigate issues consistently, communicate clearly, restore service safely, and capture useful records.
 
-**Project Overview**
+All scenarios and examples in this repository are fictional and provided for portfolio and educational purposes. They do not describe a specific organization, its policies, or the author's real-world experience. Adapt procedures to your environment, security requirements, and approved change controls.
 
-This project provides structured technical documentation designed to support consistent incident investigation, resolution, escalation, and knowledge sharing.
+## Documentation
 
-**Objectives**
+### Troubleshooting
 
-Standardize troubleshooting procedures.
+- [Network connectivity](troubleshooting/network-connectivity.md) — diagnose reachability, DNS, Wi-Fi, and VPN symptoms.
+- [Application errors](troubleshooting/application-errors.md) — investigate failures, timeouts, and application-specific errors.
+- [Login and access issues](troubleshooting/login-and-access-issues.md) — troubleshoot authentication, account state, and authorization.
 
-Improve incident documentation.
+### Incident management
 
-Define escalation criteria.
+- [Incident prioritization](incident-management/incident-prioritization.md) — distinguish severity from priority and assess business impact.
+- [Escalation process](incident-management/escalation-process.md) — prepare a useful handoff and route unresolved incidents.
 
-Support consistent problem-solving practices.
+### Standard operating procedures
 
-Make technical knowledge easier to maintain and reuse.
+- [Ticket handling](standard-operating-procedures/ticket-handling.md) — manage a support ticket from intake through closure.
 
-**Repository Structure**
+### Templates
 
-troubleshooting/ — Technical troubleshooting guides.
+- [Incident report](templates/incident-report.md) — reusable structure for recording an incident and its recovery.
 
-incident-management/ — Incident handling and escalation procedures.
+## Working principles
 
-standard-operating-procedures/ — Standardized support workflows.
+1. Confirm scope and impact before changing systems.
+2. Gather evidence and record timestamps, affected services, and actions taken.
+3. Prefer reversible, least-impact troubleshooting steps; follow local authorization and change-control requirements.
+4. Verify service recovery with the requester or an appropriate health check.
+5. Escalate promptly when impact, risk, access, or expertise exceeds the current support role.
 
-templates/ — Reusable incident reporting templates.
+## Repository structure
 
-**Topics Covered**
-
-Network connectivity issues.
-
-Application errors.
-
-Login and access problems.
-
-Device performance issues.
-
-Incident prioritization.
-
-Root cause documentation.
-
-**Approach**
-
-Each guide follows a structured workflow: identify the issue, collect relevant information, investigate possible causes, apply an appropriate resolution, validate the outcome, and document the results.
-
-**Project Status**
-
-Initial documentation and repository structure are being developed.
-
-**Disclaimer**
-
-This project uses fictional scenarios for educational and portfolio purposes. It does not contain confidential company information or real customer data.
+```text
+troubleshooting/
+incident-management/
+standard-operating-procedures/
+templates/
+```
